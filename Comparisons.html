@@ -9,41 +9,61 @@
 <body>
     <div class='container'> <!-- Creates the Overall Grid -->
         <div class='row' style="color:white;background-color: teal;"> <!--- title and nav row -->
-            <div class='col-md-4'> <!--- site title -->
-                <h3> Predicting Heart Disease with Machine Learning</h3>
+            <div class='col-md-10'> <!--- site title -->
+                <h1 href="index.html"> Predicting Heart Disease with Machine Learning </h1>
             </div> <!--- end site title -->
-            <div class='col-md-8'> <!--- navigation bar -->
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#" style="color:white" >Summary</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" style="color:white" >Vis One</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" style="color:white" >Vis Two</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" style="color:white" >Vis Three</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" style="color:white" >Vis Four</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" style="color:white" >Comparisons</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" style="color:white" >Data</a>
-                  </li>
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Navigation
+                </a>
+              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="index.html">Summary</a>
+                  <a class="dropdown-item" href="VisOne.html">Random Forest Model VS XGBoost Model</a>
+                  <a class="dropdown-item" href="VisTwo.html">Sex of Patients</a>
+                  <a class="dropdown-item" href="VisThree.html">Mean Absolute Error by Sex</a>
+                  <a class="dropdown-item" href="VisFour.html">Age Groups of Patients</a>
+                  <a class="dropdown-item" href="VisFive.html">Mean Absolute Error by Age Group</a>
+                  <a class="dropdown-item" href="Comparisons.html">Comparisons</a>
+                  <a class="dropdown-item" href="Data.html">Data</a>
+                </div>
+              </div>
+            <div class='col-md-2'> <!--- navigation bar -->
             
-              </ul>
-            </div> <!--- end navigation bar -->
         </div> <!--- end title and nav row -->
-
+       
+</div>
     
     
     
     </div> <!-- closes grid container-->
+    <div class='container'>
+        <br>
+        <br>
+        <br>
+        <div class='row'>
+            <br>
+            <br>
+            <br>
+            <h1 style='color:teal'> Comparisons</h1>
+        </div>
+        <div class="row">
+<p>Click any visualization to view in detail with analysis.</p>
+        </div>
+        <div class='row'>
+            <div>
+                <a href="VisOne.html">
+                    <img src="resources/assets/images/Random_Forest_VS_XGBoost.png">
+                </a>
+            </div>
+        </div>
+    </div>
+        '
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
